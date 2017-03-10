@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890D6EE11E718AE20079B405 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D6EE01E718AE20079B405 /* MainViewController.swift */; };
+		8926EA3C1E708762000343D4 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926EA3B1E708762000343D4 /* Defaults.swift */; };
+		898150271E6ECF9A00DC18F8 /* ApiServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898150261E6ECF9A00DC18F8 /* ApiServerManager.swift */; };
+		8981502B1E6ED02400DC18F8 /* CategoryML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981502A1E6ED02400DC18F8 /* CategoryML.swift */; };
+		898150301E6EDC7500DC18F8 /* LoginML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981502F1E6EDC7500DC18F8 /* LoginML.swift */; };
+		898150341E6F2F0800DC18F8 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898150331E6F2F0800DC18F8 /* CategoriesVC.swift */; };
+		898150361E6F513F00DC18F8 /* SubCategoryML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898150351E6F513F00DC18F8 /* SubCategoryML.swift */; };
+		8981503C1E6F557000DC18F8 /* ProductML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981503B1E6F557000DC18F8 /* ProductML.swift */; };
+		8981503E1E6FFD4500DC18F8 /* SubCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981503D1E6FFD4500DC18F8 /* SubCategoryVC.swift */; };
+		898150401E70003600DC18F8 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981503F1E70003600DC18F8 /* ProductVC.swift */; };
+		898150431E7000CA00DC18F8 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898150421E7000CA00DC18F8 /* ProductTableViewCell.swift */; };
 		89834CFF1E6EB96D00D0B6A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89834CFE1E6EB96D00D0B6A1 /* AppDelegate.swift */; };
 		89834D011E6EB96D00D0B6A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89834D001E6EB96D00D0B6A1 /* ViewController.swift */; };
 		89834D041E6EB96D00D0B6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89834D021E6EB96D00D0B6A1 /* Main.storyboard */; };
 		89834D061E6EB96D00D0B6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89834D051E6EB96D00D0B6A1 /* Assets.xcassets */; };
 		89834D091E6EB96D00D0B6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89834D071E6EB96D00D0B6A1 /* LaunchScreen.storyboard */; };
+		BB60033DC41EE543E3FB18FC /* Pods_SLProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B416DDA7CCC9D126D4CEC /* Pods_SLProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		165D5C82E768DC3E82E038A5 /* Pods-SLProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLProject/Pods-SLProject.release.xcconfig"; sourceTree = "<group>"; };
+		890D6EE01E718AE20079B405 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8926EA3B1E708762000343D4 /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		898150261E6ECF9A00DC18F8 /* ApiServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServerManager.swift; sourceTree = "<group>"; };
+		8981502A1E6ED02400DC18F8 /* CategoryML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryML.swift; sourceTree = "<group>"; };
+		8981502F1E6EDC7500DC18F8 /* LoginML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginML.swift; sourceTree = "<group>"; };
+		898150331E6F2F0800DC18F8 /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		898150351E6F513F00DC18F8 /* SubCategoryML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryML.swift; sourceTree = "<group>"; };
+		8981503B1E6F557000DC18F8 /* ProductML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductML.swift; sourceTree = "<group>"; };
+		8981503D1E6FFD4500DC18F8 /* SubCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryVC.swift; sourceTree = "<group>"; };
+		8981503F1E70003600DC18F8 /* ProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		898150421E7000CA00DC18F8 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		89834CFB1E6EB96D00D0B6A1 /* SLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89834CFE1E6EB96D00D0B6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89834D001E6EB96D00D0B6A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,8 @@
 		89834D051E6EB96D00D0B6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89834D081E6EB96D00D0B6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89834D0A1E6EB96D00D0B6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71B416DDA7CCC9D126D4CEC /* Pods_SLProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F213FC48FAC34CD070185E25 /* Pods-SLProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLProject/Pods-SLProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB60033DC41EE543E3FB18FC /* Pods_SLProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091D4519270EE58A97CD017D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F213FC48FAC34CD070185E25 /* Pods-SLProject.debug.xcconfig */,
+				165D5C82E768DC3E82E038A5 /* Pods-SLProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8926EA3A1E708745000343D4 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				8926EA3B1E708762000343D4 /* Defaults.swift */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		898150371E6F51B100DC18F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				898150411E7000A500DC18F8 /* Cells */,
+				898150331E6F2F0800DC18F8 /* CategoriesVC.swift */,
+				8981503D1E6FFD4500DC18F8 /* SubCategoryVC.swift */,
+				8981503F1E70003600DC18F8 /* ProductVC.swift */,
+				89834D001E6EB96D00D0B6A1 /* ViewController.swift */,
+				890D6EE01E718AE20079B405 /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		898150381E6F51D800DC18F8 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				8981502A1E6ED02400DC18F8 /* CategoryML.swift */,
+				898150351E6F513F00DC18F8 /* SubCategoryML.swift */,
+				8981502F1E6EDC7500DC18F8 /* LoginML.swift */,
+				8981503B1E6F557000DC18F8 /* ProductML.swift */,
+			);
+			name = ML;
+			sourceTree = "<group>";
+		};
+		898150391E6F520700DC18F8 /* ServerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				898150261E6ECF9A00DC18F8 /* ApiServerManager.swift */,
+			);
+			name = ServerAPI;
+			sourceTree = "<group>";
+		};
+		8981503A1E6F522900DC18F8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				89834CFE1E6EB96D00D0B6A1 /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		898150411E7000A500DC18F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				898150421E7000CA00DC18F8 /* ProductTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		89834CF21E6EB96C00D0B6A1 = {
 			isa = PBXGroup;
 			children = (
 				89834CFD1E6EB96D00D0B6A1 /* SLProject */,
 				89834CFC1E6EB96D00D0B6A1 /* Products */,
+				091D4519270EE58A97CD017D /* Pods */,
+				9DDCBA0476153BF4E90A06D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +148,25 @@
 		89834CFD1E6EB96D00D0B6A1 /* SLProject */ = {
 			isa = PBXGroup;
 			children = (
-				89834CFE1E6EB96D00D0B6A1 /* AppDelegate.swift */,
-				89834D001E6EB96D00D0B6A1 /* ViewController.swift */,
+				8926EA3A1E708745000343D4 /* Defaults */,
+				8981503A1E6F522900DC18F8 /* Delegate */,
+				898150381E6F51D800DC18F8 /* ML */,
+				898150391E6F520700DC18F8 /* ServerAPI */,
+				898150371E6F51B100DC18F8 /* ViewControllers */,
 				89834D021E6EB96D00D0B6A1 /* Main.storyboard */,
 				89834D051E6EB96D00D0B6A1 /* Assets.xcassets */,
 				89834D071E6EB96D00D0B6A1 /* LaunchScreen.storyboard */,
 				89834D0A1E6EB96D00D0B6A1 /* Info.plist */,
 			);
 			path = SLProject;
+			sourceTree = "<group>";
+		};
+		9DDCBA0476153BF4E90A06D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71B416DDA7CCC9D126D4CEC /* Pods_SLProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89834D0D1E6EB96D00D0B6A1 /* Build configuration list for PBXNativeTarget "SLProject" */;
 			buildPhases = (
+				12CED7A1BD1A292E291A8601 /* [CP] Check Pods Manifest.lock */,
 				89834CF71E6EB96C00D0B6A1 /* Sources */,
 				89834CF81E6EB96C00D0B6A1 /* Frameworks */,
 				89834CF91E6EB96C00D0B6A1 /* Resources */,
+				A6654A0B640866C320AE02B2 /* [CP] Embed Pods Frameworks */,
+				A025D79EE69686C0F1608F31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +204,7 @@
 				TargetAttributes = {
 					89834CFA1E6EB96C00D0B6A1 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = G28M68SF6T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +240,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12CED7A1BD1A292E291A8601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A025D79EE69686C0F1608F31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLProject/Pods-SLProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6654A0B640866C320AE02B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLProject/Pods-SLProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89834CF71E6EB96C00D0B6A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981502B1E6ED02400DC18F8 /* CategoryML.swift in Sources */,
+				890D6EE11E718AE20079B405 /* MainViewController.swift in Sources */,
 				89834D011E6EB96D00D0B6A1 /* ViewController.swift in Sources */,
+				898150341E6F2F0800DC18F8 /* CategoriesVC.swift in Sources */,
 				89834CFF1E6EB96D00D0B6A1 /* AppDelegate.swift in Sources */,
+				8981503E1E6FFD4500DC18F8 /* SubCategoryVC.swift in Sources */,
+				8981503C1E6F557000DC18F8 /* ProductML.swift in Sources */,
+				898150301E6EDC7500DC18F8 /* LoginML.swift in Sources */,
+				898150431E7000CA00DC18F8 /* ProductTableViewCell.swift in Sources */,
+				898150361E6F513F00DC18F8 /* SubCategoryML.swift in Sources */,
+				8926EA3C1E708762000343D4 /* Defaults.swift in Sources */,
+				898150401E70003600DC18F8 /* ProductVC.swift in Sources */,
+				898150271E6ECF9A00DC18F8 /* ApiServerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +428,12 @@
 		};
 		89834D0E1E6EB96D00D0B6A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F213FC48FAC34CD070185E25 /* Pods-SLProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G28M68SF6T;
 				INFOPLIST_FILE = SLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = orphan.SLProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +443,12 @@
 		};
 		89834D0F1E6EB96D00D0B6A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165D5C82E768DC3E82E038A5 /* Pods-SLProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G28M68SF6T;
 				INFOPLIST_FILE = SLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = orphan.SLProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +475,7 @@
 				89834D0F1E6EB96D00D0B6A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+        let loginVC = mainStoryBoard.instantiateViewController(withIdentifier: "mainVC")
+        let categoryViewController = mainStoryBoard.instantiateViewController(withIdentifier: "navController")
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        let mWindow = appDelegate?.window
+        if Defaults.shared.getLoginStatus() {
+            mWindow?.rootViewController = categoryViewController
+        } else {
+            mWindow?.rootViewController = loginVC
+        }
+        
+        
         return true
     }
 
